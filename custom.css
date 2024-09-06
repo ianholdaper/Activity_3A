@@ -1,0 +1,117 @@
+header{
+    background-color: rgba(174, 101, 0, 0.596);
+    color: azure;
+    text-align: center;
+    font-style: italic;
+    padding: 20px;
+    
+}
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+ 
+header .container a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px;
+    
+}
+header .container a:hover{
+    background-color: rgb(215, 142, 39);
+}
+nav{
+    float: left;
+    width: 20%;
+    background-color: rgb(153, 140, 42);
+    height: 500px;
+}
+
+article {
+    float: left;
+    width: 70%;
+    background-color: rgb(135, 112, 12);
+    height: 500px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.navigation_menu li{
+    list-style: none;
+    padding: 20px;
+    
+}
+
+.navigation_menu li a {
+    text-decoration: none;
+    color: aliceblue;
+    list-style: none;
+
+}
+.navigation_menu li:hover {
+    background-color: rgb(185, 161, 116);
+}
+    
+footer a {
+    list-style: none;
+    padding: 6px;
+    text-decoration: none;
+    color: rgb(250, 250, 255);
+    padding-left:6% ;
+
+}
+
+footer {
+    background-color: rgb(208, 127, 45);
+    margin: 0px;
+    padding: 40px;
+    
+}
+footer menu {
+    text-align: right;
+    
+}
+footer menu :hover{
+    background-color: rgb(174, 106, 43);
+}
+
+footer h2 {
+    text-align: center;
+    color: aliceblue;
+}
+footer p{
+    text-align: center;
+   
+
+}
+.list{
+    list-style-type: circle;
+    float: left; 
+    width: 50%;
+    
+    
+}
+.firstColumn{
+    width: 50%;
+    float: right;
+}
+.lastColumn {
+    float: 50%;
+}
+
+.Table_data {
+    background-color: rgb(210, 153, 68);
+    font-family: 'Times New Roman', Times, serif;
+    width: 80%;
+
+}
+tr:nth-child(even){
+    background-color: aliceblue;
+}
+
+   
+  
